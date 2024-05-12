@@ -1,0 +1,95 @@
+@media (max-width:1350px) {
+    .advertise-overlay-content p {
+        margin: 0;
+    }
+    .career-wrapper .career-blocks-overlay h6 {
+        font-size: 0.8rem;
+    }
+    h2,
+    .contact-wrapper h2 {
+        font-size: 1.2rem;
+    }
+    .contact-wrapper .contact-overlay-content h1, .about-wrapper h1 {
+        font-size: 1.5rem;
+    }
+    p, .about-wrapper .history-section p, .about-wrapper .jumbotron p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .block-title {
+        font-size: 18px;
+    }
+    .advertise-overlay-content {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        padding: 10px;
+    }
+    .contact-wrapper .contact-row .brand-bottom-title h2 {
+        font-size: 1rem;
+    }
+    .career-wrapper .career-blocks-overlay h6, .home-wrapper .home-overlay h6 {
+        font-size: .9rem;
+    }
+    .contact-wrapper .contact-overlay-content h1, .home-wrapper .home-overlay h1, .about-wrapper h1 {
+        font-size: 1.3rem;
+    }
+    p, .about-wrapper .history-section p, .about-wrapper .jumbotron p {
+        font-size: 14px;
+    }
+    .about-wrapper .history-img {
+        width: 300px;
+    }
+      .footer-logos-row .footer-sapodilla-img, .footer-logos-row .footer-snk-img {
+        width: 100px;
+        margin-top: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .filmstrip-blocks {
+        margin-bottom: 20px;
+    }
+    .filmstrip-content-block {
+        margin-left: 0;
+    }
+    .brand-logos-section {
+        flex-wrap: wrap;
+    }
+    .advertise-row .advertise-blocks {
+        width: 100%;
+    }
+    .brand-logos-section img {
+        width: 80px;
+        margin: 0 5px;
+    }
+    .about-wrapper .history-img {
+        width: 100%;
+    }
+    .about-wrapper .jumbotron {
+        padding: 2rem;
+    }
+    .about-wrapper .quote-block p {
+        left: 55px;
+    }
+    .home-wrapper .home-overlay {
+        margin-left: 0;
+    }
+    .aboutus-wrapper {
+        margin-top: 70px;
+    }
+    .contact-wrapper .contact-row .contact-blocks {
+        width: 100%;
+    }
+}
+
+@media (min-width:578px) and (max-width:768px) {
+    .contact-wrapper .contact-row .contact-blocks {
+        width: 50%;
+    }
+}
